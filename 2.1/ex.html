@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Title</title>
+  </head>
+  <body>
+    <!-- a标签 img标签 行内元素与块元素 -->
+    <div>
+      Web Content
+      <a href="https://www.cnblogs.com/rosyr050301">Rosyr's Blog </a>
+      <!-- 关于锚点
+      <a href="#idName">锚点名称</a> -->
+      <img src="./photo/R-C.jpg" alt="Rosyr's Avator" style="height: 60px;"/>
+      <!-- 相对路径与绝对路径 -->
+    </div>
+    <div>
+      <span>another</span>
+      <span>div</span>
+    </div>
+    <!-- 列表 -->
+    <ul>
+      <li>html</li>
+      <li>css</li>
+      <li>js</li>
+    </ul>
+    <ol>
+      <li>html</li>
+      <li>css</li>
+      <li>js</li>
+    </ol>
+    <!-- 表格 -->
+    <table>
+    <caption>学生成绩</caption>
+    <thead>
+      <tr>
+        <th>姓名</th>
+        <th>语文</th>
+        <th>数学</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>小明</td>
+        <td>60</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>小红</td> <!-- rowspan/colspan="2" -->
+        <td>60</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>小蓝</td>
+        <td>90</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>合格数</td>
+        <td>3</td>
+        <td>1</td>
+      </tr>
+    </tfoot>
+    </table>
+    <!-- 表单 -->
+    <form name="myForm" action="index.php" method="post">
+       <input type="text">
+       <input type="password"> <br>
+       <input type="radio" name="gender" value="man">man
+       <input type="radio" name="gender" value="woman">woman <br>
+       <input type="checkbox" name="bot" value="1">bot1
+       <input type="checkbox" name="bot" value="2">bot1
+       <input type="checkbox" name="bot" value="3">bot1 <br>
+       <input type="button" value="btn">
+       <input type="file">
+
+       <textarea>默认内容</textarea>
+
+       <select size="5" multiple>
+        <option>opt1</option>
+        <option>opt2</option>
+        <option>opt3</option>
+        <option>opt4</option>
+        <option>opt5</option>
+        <option>opt6</option>
+       </select>
+    </form>
+  </body>
+</html>

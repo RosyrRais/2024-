@@ -1,0 +1,12 @@
+.fatherBox {
+  border: solid 2px red;
+
+  display: flex;
+  gap: 10px;
+  flex-direction: row; 
+  /* 默认为row */
+}
+
+.sonBox {
+  border: solid 2px blue;
+}

@@ -1,0 +1,22 @@
+.divBlock {
+  color: red;
+}
+
+#div1 {
+  color: blue;
+}
+
+#Box {
+  margin: 10px 5px 20px 30px;
+  border: dashed 10px green;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#Box .divBlock {
+  border: solid 1px red;
+}
+
+div {
+  color: aqua;
+}

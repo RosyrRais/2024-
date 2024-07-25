@@ -1,0 +1,11 @@
+#t1 {
+  font-size: large;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #3975e4;
+}
+
+#t2 {
+  line-height: 40px;
+}
